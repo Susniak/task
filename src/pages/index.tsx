@@ -1,9 +1,9 @@
 "use client";
 
-import Player from "./features/player/Player";
-import Playlist from "./features/playlist/Playlist";
+import Player from "../features/player/Player";
+import Playlist from "../features/playlist/Playlist";
 import { useCallback, useEffect, useState } from "react";
-import usePlaylist from "./features/playlist/helpers/usePlaylist";
+import usePlaylist from "../features/playlist/helpers/usePlaylist";
 
 export default function Home() {
   const [isLoaded, setLoaded] = useState(false);
