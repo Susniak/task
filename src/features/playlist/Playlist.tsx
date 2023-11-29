@@ -20,7 +20,7 @@ const Playlist = ({
   return (
     <div>
       <Typography className={"mb-6"} variant={"h2"}>
-        Choose your media{" "}
+        Choose your media
       </Typography>
       <PlaylistForm onAddElement={onAddElement} />
       <PlaylistItems
